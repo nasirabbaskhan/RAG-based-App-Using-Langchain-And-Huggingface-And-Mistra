@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rag based app using langchain and huggingface and mistra"
+version = "0.1.0"
+description = ""
+authors = ["Nasir Abbas <akhtarabbas.islamicreaction@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-huggingface = "^0.1.0"
+python-dotenv = "^1.0.1"
+huggingface-hub = "^0.26.1"
+langchain-community = "^0.3.3"
+transformers = "^4.46.0"
+streamlit = "^1.39.0"
+pypdf = "^5.0.1"
+langchain-google-genai = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
